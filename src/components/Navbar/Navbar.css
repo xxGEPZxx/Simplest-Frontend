@@ -1,0 +1,35 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 5%;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  z-index: 100;
+}
+
+.navbar a, .navbar Button {
+  position: relative;
+  font-size: 15px;
+  margin-left: 15px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar a::before, .navbar Button::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.navbar a:hover::before, .navbar Button:hover::before {
+  width: 100%;
+}
