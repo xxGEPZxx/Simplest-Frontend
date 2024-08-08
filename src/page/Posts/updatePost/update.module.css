@@ -1,0 +1,16 @@
+.title {
+    font-family: Greycliff CF, var(--mantine-font-family);
+    font-weight: 900;
+  }
+  
+  .link {
+    text-decoration: "none";
+    color: var(--mantine-color-blue-6);
+  }
+  
+
+.buttonRegresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
